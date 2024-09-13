@@ -1,5 +1,7 @@
-
-# ![](pages/assets/rf_logo_plural.png) RFin
+<p align="center">
+  <img src="pages/assets/rf_logo_plural.png" />
+</p>
+<h1 align="center">RFin</h1>
 
 ## Overview
 
@@ -32,8 +34,8 @@ Make sure you have the following installed on your system:
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/stock-finance-project.git
-cd stock-finance-project
+git clone https://github.com/ahmadreyhan/rfin.git
+cd rfin
 ```
 
 ### 2. Set up a virtual environment
