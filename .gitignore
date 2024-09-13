@@ -1,0 +1,9 @@
+.env
+.DS_Store
+test.rest
+/venv/
+/__pycache__/
+/__chat_ai/__pycache__/
+/initial_datasets/
+/rfin_backend/rfin_app/__pycache__/
+/rfin_backend/rfin_backend/__pycache__/
