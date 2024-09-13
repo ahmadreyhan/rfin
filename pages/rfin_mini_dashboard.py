@@ -66,6 +66,10 @@ def simple_candlestick(df: pd.DataFrame, x_y_label: list = None, chart_title: st
     ])
     return fig
 
+if 'access' not in st.session_state:
+    st.switch_page("app.py")
+    hide_pages(["RFin Mini Dashboard", "RFin AI-ChatBot"])
+
 st.title("RFin - IDX Mini Dashboard") 
 col1, col2 = st.columns(2)
 with col1:

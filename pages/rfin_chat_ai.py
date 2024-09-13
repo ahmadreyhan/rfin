@@ -8,6 +8,10 @@ st.set_page_config(page_title="RFin", layout="wide",
                    initial_sidebar_state="collapsed",
                    menu_items={'About': "RFin is a Simple IDX Stocks Dashboard"})
 
+if 'access' not in st.session_state:
+    st.switch_page("app.py")
+    hide_pages(["RFin Mini Dashboard", "RFin AI-ChatBot"])
+
 st.title("💬 RFin Bot")
 example_questions = [
     "IDX Historical Market Cap from December 23rd, 2023 until January 15th, 2024",
