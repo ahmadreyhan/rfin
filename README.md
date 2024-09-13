@@ -83,12 +83,17 @@ pip install -r requirements.txt
 
 Exec the docker container to implementing Redis-caching
 
-1. Compose the docker container
+1. Open a new terminal window and navigate back to the project root directory:
+    ```bash
+    cd ..
+    ```
+    
+2. Compose the docker container
     ```bash
     docker compose up -d
     ```
     
-2. Exec the .yml file
+3. Exec the .yml file
     ```bash
     docker exec -it redis redis-cli
     ```
